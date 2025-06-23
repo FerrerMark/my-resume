@@ -3,7 +3,8 @@ const Education = ({ education }) => (
     <h3>Education</h3>
     {education.map((edu, idx) => (
       <div key={idx}>
-        <strong>{edu.degree}</strong>, {edu.school} ({edu.year})
+        <div className="date">{edu.year}</div>
+        <strong>{edu.degree}</strong>, {edu.school} 
       </div>
     ))}
   </div>
