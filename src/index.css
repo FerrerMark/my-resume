@@ -4,8 +4,12 @@ body {
     color: #333;
     margin: unset;
     p, li{
-        font-size: 12px;
+        font-size: 13px;
         margin: 7px 0;
+    }
+    .date {
+        color: #000000bd;
+        font-size: 14px;
     }
 }
 
@@ -14,22 +18,29 @@ body {
     max-width: 820px;
     margin: auto;
     background: white;
-    padding: 2rem 10px;
     box-shadow: 0 0 10px #ccc;
     height: 985px;
+    padding: 63px 32px 0 32px;
 }
 
-.Right
- {
+.left {
     display: flex;
-    max-width: 25%;
+    max-width: 26%;
     border-right: 1px solid #0000005c;
     padding: 0 21px;
     gap: 0px;
     flex-direction: column;
 }
 
-.left {
+.left .objectives{
+    padding: 0 0 9px 0;
+}
+
+.left .objectives p {
+    text-align: justify;
+}
+
+.right {
     width: 75%;
     padding: 0 21px;
 }
@@ -55,11 +66,16 @@ ul {
   padding-left: 1.5rem;
 }
 
-.contacts > p {
+.contacts{
+    margin: 0 0 12px 0;
+}
+
+.contacts > p{
     display: flex;
     align-items: center;
     align-content: center;
     gap: 3px;
+    margin: 0 0 2px 0;
 }
 
 .contacts p svg.ic {
@@ -67,7 +83,7 @@ ul {
 }
 
 .contacts p svg.address {
-    width: 33px;
+    width: 18px;
 }
 
 .links p{
@@ -78,15 +94,17 @@ ul {
 }
 
 .links svg.ic{
-    width: 19px;
+    width: 18px;
+}
+
+.summary p{
+    text-align: justify;
+    margin: 0 0 12px 0;
 }
 
 .links p a{
+    font-size: 10px;
     text-decoration: none;
-}
-
-.summary p {
-    text-align: justify;
 }
 
 .educations {
@@ -96,11 +114,11 @@ ul {
 .educations > div {
     font-size: 15px;
     text-align: justify;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
-.educations .date{
-    color: #000000ad;
+.skills li{
+    margin: 3px 0;
 }
 
 @media print{
@@ -111,4 +129,23 @@ ul {
 
 button{
     margin: 11px;
+}
+
+.educations .date, 
+.experiences .date{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.educations .date .dataVal,
+.experiences .date .dataVal {
+    margin: 2px 0 0 0;
+    font-size: 12px;
+}
+
+.educations .date svg.calendar, 
+.experiences .date svg.calendar {
+    width: 17px;
+    height: 17px;
 }

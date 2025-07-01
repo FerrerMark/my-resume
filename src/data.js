@@ -1,13 +1,13 @@
 export const resumeData = {
   name: "John Mark Ferrer",
   title: "Web Developer",
-  summary: "A passionate and detail-oriented Information Technology graduate with problem-solving skills and a foundation in programming. Proficient in the basics of software development, and eager to further grow in areas such as networking, system troubleshooting, maintenance, and integration.",
+  summary: "Motivated and detail-oriented Information Technology graduate with hands-on experience in web development, gained through a focused internship. Proficient in HTML, CSS, JavaScript, PHP, Laravel, and MySQL. Known for quick adaptability to new technologies, strong problem-solving skills, and a passion for clean, efficient code. Seeking to contribute to real-world projects while continuing to grow in system integration, troubleshooting, and collaborative development environments.",
   
   contacts: [
     {
       number: "0975 912 6258",
       email: "ferrerjohnmark26@gmail.com",
-      address: "2506 waling-waling Street. Area C. Camarin Caloocan City."
+      address: "Camarin Caloocan, Philippines"
     },
   ],
 
@@ -26,11 +26,11 @@ export const resumeData = {
       period: "March 2025 – May 2025",
       details: [
         "Completed 250 hours of on-the-job training.",
-        "Collaborated in the development of a web-based records and enrollment system.",
+        "Collaborated in the development of a web-based records.",
         "Used Laravel framework with MySQL integration.",
-        "Designed user interfaces with Blade and Bootstrap.",
+        "Designed responsive UI with Blade and Tailwind CSS.",
         "Assisted in system documentation, testing, and deployment.",
-        "Delivered a final system presentation and user guidance."
+        "Delivered system presentation and provided user training."
       ],
     }
   ],
@@ -43,7 +43,7 @@ export const resumeData = {
     },
     {
       school: "Bestlink College of the Philippines",
-      degree: "Senior High Diploma in Information and Communication Technology",
+      degree: "Senior High School – ICT Strand",
       year: "July 2021"
     }
   ],
@@ -51,32 +51,28 @@ export const resumeData = {
   certifications: [
     "Responsive Web Design Certification, 300hrs, freeCodeCamp",
     "PHP Course Certificate, SoloLearn",
+    "SQL Course Certificate, SoloLearn",
+    "Javascript Course Certificate, SoloLearn",
     "Get Certified as an Excel Pro!, Jobstreet",
     "Certificate of Completion - On-the-Job Training, 250hrs",
     "Information Management in the Digital Age",
     "Cultivating a Multidisciplinary Research Culture with AI: Innovation and Impact",
     "BITZ 2023 Session 02 - Understanding the innovator’s Role in Digital Transformation",
-    "Knowledge with the Research Trends from Multidisciplinary Perspective in Engineering, ICT",
-    "SQL Course Certificate, SoloLearn",
-    "Javascript Course Certificate, SoloLearn"
+    "Knowledge with the Research Trends from Multidisciplinary Perspective in Engineering, ICT"
   ],
 
   skills: [
-    "API integration", 
-    "Web development skills (HTML, CSS, PHP, JS)", 
-    "Database management (SQL)", 
-    "Computer literacy", 
-    "Problem solving", 
-    "Teamwork and collaboration", 
-    "Time management", 
-    "Meeting deadlines", 
-    "GitHub", 
-    "Adaptability", 
-    "Proficient in Excel"
+    "Web Development: HTML, CSS, PHP, JS", 
+    "Database Management: SQL, MySQL",
+    "Version Control: GitHub",
+    "Frameworks: Laravel, Tailwind CSS, Blade", 
+    "Other Skills: API Integration, System Documentation, Testing & Deployment, Computer literacy",
+    "Soft Skills: Problem Solving, Teamwork, Time Management, Adaptability, Meeting Deadlines",
+    "Tools: Visual Studio Code, Git, GitHub, Figma, Chrome DevTools, Excel"
   ],
   languages: ["English", "Filipino"],
   tools: ["Laravel", "MySQL", "Bootstrap", "Blade", "Excel", "Git"],
   interests: ["Open-source contribution", "Web design", "Tech meetups", "Problem solving games"],
   availability: "Available for full-time roles and internships",
-  objective: "To secure a challenging role in web development where I can contribute to meaningful projects and grow my technical and professional skills."
+  objective: "To obtain a dynamic role in web development where I can contribute to impactful projects, sharpen my technical expertise, and continue growing as a collaborative and results-driven developer."
 };

@@ -8,23 +8,26 @@ import Skills from './components/Skills';
 import Contacts from './components/Contacts';
 import Links from './components/Links';
 import Certifications from './components/Certifications';
-
+import Objectives from './components/Objectives';
 
 function App() {
   return (
   <>
     <button onClick={print}>PRINT</button>
     <div className="resume">
-      <div className="Right">
+      <div className="left">
         <Header name={resumeData.name} title={resumeData.title} />
+        <hr />
+        <Objectives />
         <hr />
         <Contacts />
         <hr />
-        <Links />
-        <hr />
         <Skills skills={resumeData.skills} />
+        <hr />
+        <Links />
+        
       </div>
-      <div className="left">
+      <div className="right">
         <Summary summary= {resumeData.summary}/>
         <hr />
         <Experience experience={resumeData.experience} />

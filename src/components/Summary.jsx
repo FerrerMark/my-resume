@@ -1,5 +1,5 @@
 const Summary = ({ summary }) => (
-  <div class="summary">
+  <div className="summary">
     <h3>Professional Summary</h3>
     <p>{summary}</p>
   </div>

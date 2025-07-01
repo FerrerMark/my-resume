@@ -1,9 +1,9 @@
 const Skills = ({ skills }) => (
-  <section>
+  <div className="skills">
     <h3>Skills</h3>
     <ul>
       {skills.map((skill, idx) => <li key={idx}>{skill}</li>)}
     </ul>
-  </section>
+  </div>
 );
 export default Skills;
