@@ -3,14 +3,36 @@ body {
     background: #f9f9f9;
     color: #333;
     margin: unset;
-    p, li{
-        font-size: 13px;
-        margin: 7px 0;
-    }
-    .date {
-        color: #000000bd;
-        font-size: 14px;
-    }
+}
+
+body ul {
+    padding-left: 1.5rem;
+}
+
+body p,
+body li {
+    font-size: 13px;
+    margin: 7px 0;
+}
+
+body .date {
+    color: #000000bd;
+    font-size: 14px;
+}
+
+body hr {
+    margin: 0px;
+}
+
+body h1,
+body h2,
+body h3 {
+    color: #444444e6;
+    margin: 10px 0rem;
+}
+
+body header h2 {
+    font-size: 19px;
 }
 
 .resume {
@@ -20,7 +42,7 @@ body {
     background: white;
     box-shadow: 0 0 10px #ccc;
     height: 985px;
-    padding: 63px 32px 0 32px;
+    padding: 40px 23px 20px 25px;
 }
 
 .left {
@@ -32,7 +54,7 @@ body {
     flex-direction: column;
 }
 
-.left .objectives{
+.left .objectives {
     padding: 0 0 9px 0;
 }
 
@@ -45,32 +67,11 @@ body {
     padding: 0 21px;
 }
 
-h1, h2, h3 {
-    color: #444444e6;
-    margin: 10px 0rem;
+.contacts {
+    margin: 12px 0 12px 0;
 }
 
-h4{
-    margin: unset;
-}
-
-hr {
-    margin: 0px;
-}
-
-section {
-  margin-bottom: 1.5rem;
-}
-
-ul {
-  padding-left: 1.5rem;
-}
-
-.contacts{
-    margin: 0 0 12px 0;
-}
-
-.contacts > p{
+.contacts > p {
     display: flex;
     align-items: center;
     align-content: center;
@@ -79,32 +80,34 @@ ul {
 }
 
 .contacts p svg.ic {
-    width: 19px;
+    width: 16px;
 }
 
-.contacts p svg.address {
-    width: 18px;
+.links {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.links p{
+.links p {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3px;
+    margin: 0 3px 0 0;
 }
 
-.links svg.ic{
+.links svg.ic {
     width: 18px;
 }
 
-.summary p{
-    text-align: justify;
-    margin: 0 0 12px 0;
-}
-
-.links p a{
+.links p a {
     font-size: 10px;
     text-decoration: none;
+}
+
+.summary p {
+    text-align: justify;
+    margin: 0 0 12px 0;
 }
 
 .educations {
@@ -117,26 +120,16 @@ ul {
     margin-bottom: 10px;
 }
 
-.skills li{
+.skills li {
     margin: 3px 0;
 }
 
-@media print{
-    button{
-        display: none ;
-    }
-}
-
-button{
-    margin: 11px;
-}
-
-.educations .date, 
-.experiences .date{
+.educations .date,
+.experiences .date {
     display: flex;
     align-items: center;
     gap: 3px;
-}
+}   
 
 .educations .date .dataVal,
 .experiences .date .dataVal {
@@ -144,8 +137,18 @@ button{
     font-size: 12px;
 }
 
-.educations .date svg.calendar, 
+.educations .date svg.calendar,
 .experiences .date svg.calendar {
     width: 17px;
     height: 17px;
+}
+
+@media print {
+    button {
+        display: none;
+    }
+}
+
+button {
+    margin: 11px;
 }

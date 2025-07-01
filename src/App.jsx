@@ -18,13 +18,12 @@ function App() {
       <div className="left">
         <Header name={resumeData.name} title={resumeData.title} />
         <hr />
-        <Objectives />
-        <hr />
         <Contacts />
         <hr />
-        <Skills skills={resumeData.skills} />
+        <Objectives />
         <hr />
-        <Links />
+        <Skills skills={resumeData.skills} />
+        
         
       </div>
       <div className="right">

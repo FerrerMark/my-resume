@@ -7,7 +7,7 @@ export const resumeData = {
     {
       number: "0975 912 6258",
       email: "ferrerjohnmark26@gmail.com",
-      address: "Camarin Caloocan, Philippines"
+      address: "Camarin, Caloocan, Philippines"
     },
   ],
 
@@ -21,7 +21,7 @@ export const resumeData = {
 
   experience: [
     {
-      company: "Bestlink College of the Philippines",
+      company: "Bestlink College of the Philippines - Senior High Department, Registrar Office",
       role: "System Developer Intern",
       period: "March 2025 – May 2025",
       details: [
@@ -30,7 +30,8 @@ export const resumeData = {
         "Used Laravel framework with MySQL integration.",
         "Designed responsive UI with Blade and Tailwind CSS.",
         "Assisted in system documentation, testing, and deployment.",
-        "Delivered system presentation and provided user training."
+        "Delivered system presentation and provided user training.",
+        "Occasionally used Microsoft Excel and Word to support administrative staff with data encoding and documentation tasks."
       ],
     }
   ],
@@ -65,10 +66,10 @@ export const resumeData = {
     "Web Development: HTML, CSS, PHP, JS", 
     "Database Management: SQL, MySQL",
     "Version Control: GitHub",
-    "Frameworks: Laravel, Tailwind CSS, Blade", 
+    "Frameworks: Laravel, Tailwind CSS, Blade, Bootstrap, React, Node.js", 
     "Other Skills: API Integration, System Documentation, Testing & Deployment, Computer literacy",
     "Soft Skills: Problem Solving, Teamwork, Time Management, Adaptability, Meeting Deadlines",
-    "Tools: Visual Studio Code, Git, GitHub, Figma, Chrome DevTools, Excel"
+    "Tools: VS Code, Git, GitHub, Figma, Chrome DevTools, Excel, MS Word"
   ],
   languages: ["English", "Filipino"],
   tools: ["Laravel", "MySQL", "Bootstrap", "Blade", "Excel", "Git"],
