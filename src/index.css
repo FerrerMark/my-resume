@@ -152,3 +152,9 @@ body header h2 {
 button {
     margin: 11px;
 }
+
+.certifications a {
+    font-style: unset;
+    text-decoration: none;
+    color: blue;
+}

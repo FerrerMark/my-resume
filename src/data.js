@@ -50,16 +50,46 @@ export const resumeData = {
   ],
 
   certifications: [
-    "Responsive Web Design Certification, 300hrs, freeCodeCamp",
-    "PHP Course Certificate, SoloLearn",
-    "SQL Course Certificate, SoloLearn",
-    "Javascript Course Certificate, SoloLearn",
-    "Get Certified as an Excel Pro!, Jobstreet",
-    "Certificate of Completion - On-the-Job Training, 250hrs",
-    "Information Management in the Digital Age",
-    "Cultivating a Multidisciplinary Research Culture with AI: Innovation and Impact",
-    "BITZ 2023 Session 02 - Understanding the innovator’s Role in Digital Transformation",
-    "Knowledge with the Research Trends from Multidisciplinary Perspective in Engineering, ICT"
+    {
+      cert: "Responsive Web Design Certification, 300hrs - freeCodeCamp",
+      link: "<a href='https://www.freecodecamp.org/certification/markkkkk/responsive-web-design' target='_blank'>view</a>"
+    },
+    {
+      cert: "PHP Course Certificate - SoloLearn",
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/php.png' target='_blank'>view</a>"
+    },
+    {
+      cert: "SQL Course Certificate - SoloLearn", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/sql%20cert.png' target='_blank'>view</a>"
+    },
+    {
+      cert: "Javascript Course Certificate - SoloLearn", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/JsCert.png' target='_blank'>view</a>"
+    },
+    {
+      cert: "Get Certified as an Excel Pro! - Jobstreet", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/excelCert.png' target='_blank'>view</a>"
+    },
+    {
+      cert: "Certificate of Completion - On-the-Job Training, 250hrs - OJT", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/ojt%20cert.jpg' target='_blank'>view</a>"
+    },
+    {
+      cert: "Information Management in the Digital Age", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/inf.jpg' target='_blank'>view</a>"
+    },
+    {
+      cert: "Cultivating a Multidisciplinary Research Culture with AI: Innovation and Impact", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/1744894398542.jpg' target='_blank'>view</a>"
+    },
+    {
+      cert: "BITZ 2023 Session 02 - Understanding the Innovator’s Role in Digital Transformation", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/image_copy_2.png' target='_blank'>view</a>"
+    },
+    {
+      cert: "Knowledge with the Research Trends from Multidisciplinary Perspective in Engineering, ICT", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/IT%20seminar.jpg' target='_blank'>view</a>"
+    },
   ],
 
   skills: [
