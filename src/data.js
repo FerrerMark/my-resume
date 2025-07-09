@@ -71,6 +71,18 @@ export const resumeData = {
       link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/excelCert.png' target='_blank'>view</a>"
     },
     {
+      cert: "Search Engine Optimization (SEO) with Squarespace - Coursera", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/CourseraSEO.jpg' target='_blank'>view</a>"
+    },
+    {
+      cert: "Getting Started with Microsoft Excel - Coursera", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/CourseraExcel.jpg' target='_blank'>view</a>"
+    },
+    {
+      cert: "Microsoft Word for Work - Jobstreet", 
+      link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/msword.png' target='_blank'>view</a>"
+    },
+    {
       cert: "Certificate of Completion - On-the-Job Training, 250hrs - OJT", 
       link: "<a href='https://portfolio-ferrerjohnmark26-gmailcoms-projects.vercel.app/img/certificates/ojt%20cert.jpg' target='_blank'>view</a>"
     },
